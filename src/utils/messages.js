@@ -5,6 +5,7 @@ let defaultMessages = {
   allDay: 'All Day',
   week: 'Week',
   work_week: 'Work Week',
+  aligned_week: 'AWeek',
   day: 'Day',
   month: 'Month',
   previous: 'Back',

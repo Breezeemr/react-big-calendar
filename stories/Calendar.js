@@ -25,7 +25,9 @@ storiesOf('Big Calendar', module)
   .add('default view', () => {
     return (
       <Calendar
-        defaultView={Views.WEEK}
+        defaultView={Views.ALIGNED_WEEK}
+        views={['day', "month", "week", "aligned_week" ]}
+        dayLayoutAlgorithm={"no-overlap"}
         min={moment('12:00am', 'h:mma').toDate()}
         max={moment('11:59pm', 'h:mma').toDate()}
         events={events}
@@ -69,6 +71,7 @@ storiesOf('Big Calendar', module)
       <Calendar
         defaultDate={new Date()}
         defaultView={Views.DAY}
+        dayLayoutAlgorithm={"no-overlap"}
         events={createEvents(1)}
         step={30}
       />
