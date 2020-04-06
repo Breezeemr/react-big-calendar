@@ -1,3 +1,9 @@
+# Breeze EHR
+
+This is installed as described in the top level readme of master-at-arms.
+
+Note the section below `react-big-calendar` is the orginal projects readme.
+
 # react-big-calendar
 
 An events calendar component built for React and made for modern browsers (read: IE10+) and uses flexbox over the classic tables-ception approach.
